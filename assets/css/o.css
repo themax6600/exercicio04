@@ -1,0 +1,103 @@
+/**Reset**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**Geral**/
+body{
+    background-color: rgb(59, 70, 100);
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box_up{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.box_right{
+    display: flex;
+}
+
+.box_center{
+    width: 400px;
+    height: 120px;
+    background-color: rgb(24,30,50);
+    border-radius: 10%;
+    border: none;
+    margin: 20px;
+}
+
+.box-down{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(59, 70, 100);
+}
+
+.box-down-left{
+    display:flex;
+    width: 400px;
+    height: 350px;
+    background-color:rgb(24,30,50) ;
+    flex-direction: column;
+}
+
+.select_theme ol{
+    list-style: none;
+    display: flex;
+    font-size: 8px;
+}.select{
+    display: flex;
+}
+
+Input{
+    width: 400px;
+    height: 120px;
+    background-color: rgb(24,30,50);
+    border: none;
+    font-size: 30px;
+    text-align: right;
+    text-decoration-color: white;
+    color: white;
+}
+
+button{
+    width: 70px;
+    height: 40px;
+    border-color:rgb(178, 167, 149);
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-size: large;
+    background-color: rgb(234,277,219);
+}
+
+.button-iqual{
+    width: 170px;
+    border: hidden;
+    background-color: rgb(249, 108, 91);
+    color: black;
+}
+
+.button-reset{
+    width: 170px;
+    color: white;
+    background-color: rgb(162,179,225);
+}
+
+.button-delet{
+    color: white;
+    background-color: rgb(162,179,225);
+}
